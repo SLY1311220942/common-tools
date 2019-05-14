@@ -1,6 +1,6 @@
 package com.sly.common.tools;
 
-import com.sly.common.tools.gui.Layout;
+import com.sly.common.tools.gui.CommonToolLayout;
 
 /**
  * 启动类
@@ -16,7 +16,7 @@ public class Application {
 	 * @time 2019年5月14日
 	 */
 	public static void main(String[] args) {
-		Layout layout = new Layout();
+		CommonToolLayout layout = new CommonToolLayout();
 		layout.layout();
 	}
 }
